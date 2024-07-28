@@ -308,6 +308,6 @@ msg.attach(MIMEText(html_content, "html"))
 server.sendmail(sender, recipient, msg.as_string())
 
 print("Email with rankings sent to management")
-print("nothint")
+print("nothing")
 # Close the connection
 server.quit()
